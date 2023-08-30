@@ -1,0 +1,14 @@
+C:\Users\gabri\contabancaria\contabancaria\bin\Debug\net7.0\contabancaria.exe
+C:\Users\gabri\contabancaria\contabancaria\bin\Debug\net7.0\contabancaria.deps.json
+C:\Users\gabri\contabancaria\contabancaria\bin\Debug\net7.0\contabancaria.runtimeconfig.json
+C:\Users\gabri\contabancaria\contabancaria\bin\Debug\net7.0\contabancaria.dll
+C:\Users\gabri\contabancaria\contabancaria\bin\Debug\net7.0\contabancaria.pdb
+C:\Users\gabri\contabancaria\contabancaria\obj\Debug\net7.0\contabancaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\contabancaria\contabancaria\obj\Debug\net7.0\contabancaria.AssemblyInfoInputs.cache
+C:\Users\gabri\contabancaria\contabancaria\obj\Debug\net7.0\contabancaria.AssemblyInfo.cs
+C:\Users\gabri\contabancaria\contabancaria\obj\Debug\net7.0\contabancaria.csproj.CoreCompileInputs.cache
+C:\Users\gabri\contabancaria\contabancaria\obj\Debug\net7.0\contabancaria.dll
+C:\Users\gabri\contabancaria\contabancaria\obj\Debug\net7.0\refint\contabancaria.dll
+C:\Users\gabri\contabancaria\contabancaria\obj\Debug\net7.0\contabancaria.pdb
+C:\Users\gabri\contabancaria\contabancaria\obj\Debug\net7.0\contabancaria.genruntimeconfig.cache
+C:\Users\gabri\contabancaria\contabancaria\obj\Debug\net7.0\ref\contabancaria.dll
