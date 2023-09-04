@@ -9,31 +9,17 @@ namespace contabancaria
         {
             int opcao;
 
-            //Conta c1 = new Conta(1, 123, 1, "Gaspar", 1000000.00M);
+            ContaCorrente cc1 = new ContaCorrente(2, 123, 1, "Samantha", 10000000.00M, 1000M);
 
-            //c1.Visualizar();
-            //c1.SetNumero(345);
-            //c1.Visualizar();
+            cc1.Visualizar();
 
-            //c1.Sacar(1000);
+            cc1.Sacar(20000000.00M);
 
-            //c1.Visualizar();
+            cc1.Visualizar();
 
-            //c1.Depositar(5000);
+            cc1.Depositar(5000);
 
-            //c1.Visualizar();
-
-            //ContaCorrente cc1 = new ContaCorrente(2, 123, 1, "Samantha", 10000000.00M, 1000M);
-
-            //cc1.Visualizar();
-
-            //cc1.Sacar(20000000.00M);
-
-            //cc1.Visualizar();
-
-            //cc1.Depositar(5000);
-
-            //cc1.Visualizar();
+            cc1.Visualizar();
 
             ContaPoupanca cp1 = new ContaPoupanca(3, 123, 2, "Osvaldo", 20000000.00M, 15, 2000M);
 
