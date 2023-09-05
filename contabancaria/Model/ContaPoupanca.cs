@@ -9,7 +9,6 @@ namespace contabancaria.Model
     public class ContaPoupanca : Conta
     {
         private int aniversario;
-        private decimal limite;
         public ContaPoupanca(int numero, int agencia, int tipo, string titular, decimal saldo, int aniversario) : base(numero, agencia, tipo, titular, saldo)
         {
             this.aniversario = aniversario;
