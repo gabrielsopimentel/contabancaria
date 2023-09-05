@@ -10,7 +10,7 @@ namespace contabancaria.Model
     {
         private int aniversario;
         private decimal limite;
-        public ContaPoupanca(int numero, int agencia, int tipo, string titular, decimal saldo, int aniversario, decimal limite) : base(numero, agencia, tipo, titular, saldo)
+        public ContaPoupanca(int numero, int agencia, int tipo, string titular, decimal saldo, int aniversario) : base(numero, agencia, tipo, titular, saldo)
         {
             this.aniversario = aniversario;
         }
@@ -22,18 +22,6 @@ namespace contabancaria.Model
         {
             base.Visualizar();
             Console.WriteLine($"Aniversário: {this.aniversario}");
-        }
-
-        public override bool Sacar(decimal valor)
-        {
-            if (this.GetSaldo() + this.limite < valor)
-            {
-                Console.WriteLine("Saldo insuficente");
-                return false;
-            }
-
-            this.SetSaldo(this.GetSaldo() - valor);
-            return true;
         }
     }
 }
