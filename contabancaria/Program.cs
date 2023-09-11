@@ -41,7 +41,8 @@ namespace contabancaria
                 Console.WriteLine("            6 - Sacar                                ");
                 Console.WriteLine("            7 - Depositar                            ");
                 Console.WriteLine("            8 - Transferir valores entre Contas      ");
-                Console.WriteLine("            9 - Sair                                 ");
+                Console.WriteLine("            9 - Consulta por titular                 ");
+                Console.WriteLine("            10 - Sair                                ");
                 Console.WriteLine("                                                     ");
                 Console.WriteLine("*****************************************************");
                 Console.WriteLine("Entre com a opção desejada:                          ");
@@ -239,6 +240,20 @@ namespace contabancaria
                         KeyPress();
                         break;
                     case 9:
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Consulta por titular\n\n");
+                        Console.ResetColor();
+
+                        Console.Write("Digite o nome do titular: ");
+                        titular = Console.ReadLine();
+
+                        titular ??= string.Empty;
+
+                        contas.ListarTodasPorTitular(titular);
+                        
+                        KeyPress();
+                        break;
+                    case 10:
                         Console.BackgroundColor = ConsoleColor.Black;
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("\nBanco do Brazil com Z - O seu Futuro começa aqui!");

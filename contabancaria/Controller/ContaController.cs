@@ -85,8 +85,8 @@ namespace contabancaria.Controller
 
             if (conta is not null)
             {
-                if(conta.Sacar(valor) == true)
-                Console.WriteLine($"O saque na conta {numero} foi efetuado com sucesso!");
+                if (conta.Sacar(valor) == true)
+                    Console.WriteLine($"O saque na conta {numero} foi efetuado com sucesso!");
             }
             else
             {
@@ -148,6 +148,14 @@ namespace contabancaria.Controller
                     return conta;
             }
             return null;
+        }
+
+        public void ListarTodasPorTitular(string titular)
+        {
+            var contasPorTitular = from conta in listaContas
+                                   where conta.GetTitular().Contains(titular)
+                                   select conta;
+            contasPorTitular.ToList().ForEach(c => c.Visualizar());
         }
     }
 }
